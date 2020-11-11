@@ -2,3 +2,38 @@
     color: blueviolet;
     background-color: crimson;
 }
+.logo img{
+    width: 59px;
+    height: 51px;
+}
+
+.header{
+    background-color: darkblue;
+    /*height: 100%;*/
+
+}
+.logo{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.basket-counter{
+    margin-left: 10px ;
+    color: floralwhite;
+    text-align: right;
+
+}
+.header-right img{
+    width: 25px;
+    height: 30px;
+}

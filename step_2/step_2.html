@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=D, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    <h1>
+        Задание 1
+    </h1>
+
+    <p>
+        задать температуру в градусах по Цельсию
+        Вывести в градусах по фаренгейту
+        Расчет по формуле Tf = (9/5)*Tc+32
+    </p>
+    <script src="first.js"></script>
+
+    <h2> Задание 2</h2>
+    <p>
+        Чему равно JS-выражение 1000+'108' 
+    </p>
+    <script src="second.js"></script> -->
+
+    <script>
+        // ===== условные контрукции
+        //let _int = 0;
+        //let _boolean = false;
+        // let _string = '';
+        // if(goodsCount > 0)
+        //     console.log(`Кол-во товаров в корзине ${goodsCount}`);
+
+        // ============= 
+       // if(_boolean ===_int ){
+        //    console.log('true');
+       // } else{
+       //     console.log('false')
+       // }
+       
+
+
+
+        
+        //ternary operator 
+        //let goodsCount = 2;
+
+        //goodsCount > 0
+          //  ? console.log('Products in the cart'+goodsCount)
+           // : console.log('Cart is empty')
+      //  ;
+
+
+
+    
+    // let banana, mango , apple ,pear
+        //const good = 'apple';
+        // if(good === 'banana'){
+        //     console.log('Banana price 50 euro per kg');
+
+        // }
+        // else if(good === 'mango'){
+        //     console.log('Mango price is 80 euro per kg')
+        //     //console.log(`${good} price is 80 euro per kg`)
+
+        // }
+        // else if(good === 'apple' || good === 'pear'){
+        //     console.log('Apple and pears have the same price 40 euro per kg ')
+            
+
+        // }
+        // else{
+        //     console.log('unknown fruit')
+        // }
+        // switch(good){   ------сравнение ===
+        //     case 'banana':
+        //         console.log('Banana price 50 euro per kg');
+        //         break;
+        //     case 'mango':
+        //         onsole.log(`${good} price 80 euro per kg`);
+        //         break;
+        //     case 'apple':
+        //    case 'Apple':
+        //         console.log(`${good} price 40 euro per kg`);
+        //         break;
+        //     default:
+        //         console.log('unknown fruit');
+        //================function
+        //=====function declaration
+
+
+        // const any_good = 'apple';
+        // function sayPrice(any_good){
+        //      switch(any_good){   
+        //         case 'banana':
+        //             console.log('Banana price 50 euro per kg');
+        //             break;
+        //         case 'mango':
+        //             onsole.log(`${any_good} price 80 euro per kg`);
+        //             break;
+        //         case 'apple':
+        //         case 'Apple':
+        //             console.log(`${any_good} price 40 euro per kg`);
+        //             break;
+        //         default:
+        //             console.log('unknown fruit');
+            
+
+        // }
+        // }
+        // sayPrice(any_good);  ---- и снизу и сверху
+
+        //============function expression
+        // const myFunc = function(){
+        //     console.log('I am function expression');
+
+        // }
+        // myFunc() //только внизу
+
+        //=== return
+//         function sum(num1,num2){
+//             let s = num1+num2
+//             return s;
+//         }
+//         let val = sum(2,3)
+// ;        console.log("Sum = "+ val);
+        
+        // function getGoodPrice(any_good){
+        //      switch(any_good){   
+        //         case 'banana':
+        //             return 50;
+                    
+        //         case 'mango':
+        //             return 80;
+                   
+        //         case 'apple':
+        //         case 'pear':
+        //             return 40;
+                    
+        //         default:
+        //             return false 
+        //      }
+        //     }
+        // const mangoPrice = getGoodPrice('mango');
+        // const pearPrice = getGoodPrice('pear');
+
+        // console.log(mangoPrice );
+        // console.log(pearPrice );
+
+        // function getPriceByCount(any_good, count){
+        //     const price = getGoodPrice(any_good)
+
+        //     if(price === false){
+        //         console.error('Product not found');
+        //         return false;
+        //     }
+        //     return price*count;
+        // }
+        // console.log(getPriceByCount('mango',3));
+        // console.log(getPriceByCount('milk',1));
+        // console.log(getPriceByCount('banana',12));
+
+
+
+        
+        // ternary operator 
+        // let goodsCount = 2;
+
+        // goodsCount > 0
+        //     ? console.log('Products in the cart'+goodsCount)
+        //     : console.log('Cart is empty')
+        // ;
+         // //----------------------- рекурсия : вункция в процессе выполнения мжет вызывать саму себя
+        // function recurcion1(x){
+        //     if(x===1){
+        //         return'1';
+        //     }
+        //     return recurcion2(x-1) + ' ' + x;
+
+        // } // получим строку из предыдущих чисел и к ней справа добавим текущее число
+
+        // function recurcion2(x){
+        //     if(x===1){
+        //         return'1';
+        //     }
+        //     return recurcion3(x-1) + ' ' + x;
+
+        // } // получим строку из предыдущих чисел и к ней справа д
+
+
+        // function recurcion3(x){
+        //     if(x===1){
+        //         return'1';
+        //     }
+        //     return recurcion4(x-1) + '' + x;
+
+        // } // получим строку из предыдущих чисел и к ней справа д
+
+
+        // function recurcion4(x){
+        //     if(x===1){
+        //         return'1';
+        //     }
+        //     return recurcion5(x-1) + ' ' + x;
+
+        // } // получим строку из предыдущих чисел и к ней справа д
+        // console.log(recurcion1(3))
+        
+        function recurcion(x)
+        {
+            if(x===1){
+                return '1';
+            }
+            return recurcion(x-1) + ' ' + x;
+        }
+        console.log(recurcion(35));
+
+
+    </script>
+</body>
+    
+</html>
